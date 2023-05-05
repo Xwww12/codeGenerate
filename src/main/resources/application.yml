@@ -1,0 +1,5 @@
+spring:
+  freemarker:
+    suffix: .ftl
+server:
+  port: 8080
