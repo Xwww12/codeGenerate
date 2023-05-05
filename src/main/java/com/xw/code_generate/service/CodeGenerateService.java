@@ -31,7 +31,7 @@ public class CodeGenerateService {
 
     public ResBean generateCode(List<TableClass> tableClassList, HttpServletRequest request) {
 //        String path = request.getServletContext().getRealPath("/");
-        String path = "F:\\generate\\";
+        String path = "D:\\generate\\";
         try {
             // 获取模板
             Template modelTemplate = cfg.getTemplate("Model.java.ftl");
